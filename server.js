@@ -136,3 +136,6 @@ app.listen(PORT, async () => {
     console.warn('Warning: Initial MongoDB connection failed. Server will retry connecting upon incoming requests.');
   }
 });
+
+export default app;
+
